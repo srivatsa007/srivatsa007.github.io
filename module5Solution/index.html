@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CHAI STOP</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="restaurant-logo_medium" alt="restaurant-logo_medium"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>CHAI STOP</h1></a>
+            <p>
+              <img src="images/chai-k-logo.png" alt="1933 certification">
+              <span>Since 1933</span>
+            </p>
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="#" onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About Us</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Recognition</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:9166xxxxxx">
+                <span>9166xxxxxx</span></a><div>* We Deliver Too</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel: 9166xxxxxx">
+    <span class="glyphicon glyphicon-earphone"></span>
+    9166xxxxxx
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* Home Delivery availible</div>
+
+  <div id="main-content" class="container"></div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="open" class="col-sm-4">
+          <span>open:</span><br>
+          24*7 weekends
+          9am to 10pm weekdays
+          National holidays closed.
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          @12 b, Baker Street, Gurugram Haryana.
+          <p>* Delivery charges start applicable from 3Km radius, 10Rs per 100m.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="Praises" class="col-sm-4">
+          <p>"Can't get enough of the items and menu offered, literally could go broke sitting here all day every week!"</p>
+          <p>" Great service! And not only because i am a chai lover... its actually good!Couldn't ask for more!"</p>
+          <p>" TAKE ALL OF MY MONEY RIGHT NOW!!!"~ Sagar </p>
+        </section>
+      </div>
+      <div class="text-center">&copy; CHAI STOP Copyright 2020</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
